@@ -1,6 +1,6 @@
-package com.alangpereira.documents
+package com.alangpereira.smartpoint.documents
 
-import com.alangpereira.enums.TypeEnum
+import com.alangpereira.smartpoint.enums.TypeEnum
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 import java.util.*

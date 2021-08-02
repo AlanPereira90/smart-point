@@ -1,4 +1,4 @@
-package com.alangpereira.documents
+package com.alangpereira.smartpoint.documents
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
