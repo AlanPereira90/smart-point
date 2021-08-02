@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document
 import java.util.*
 
 @Document
-data class Posting (
+data class Payment (
   val date: Date, 
   val type: TypeEnum,
   val employeeId: String,
