@@ -1,1 +1,0 @@
-/home/alan/Dev/pessoais/smart-point/build/classes/kotlin/main/com/alanpereira/smartpoint/SmartPointApplication.class:/home/alan/Dev/pessoais/smart-point/build/classes/kotlin/main/com/alanpereira/smartpoint/SmartPointApplicationKt.class

@@ -46,5 +46,5 @@ class CompanyServiceTest {
         Assertions.assertEquals(company(), company)
     }
 
-    private fun company(): Company = Company( companyName= "Razão Social", companyDocument = document, id = "1" )
+    private fun company(): Company = Company( "Razão Social", document, "1" )
 }

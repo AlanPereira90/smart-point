@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service
 
 @Service
 class CompanyServiceImpl(val companyRepository: CompanyRepository) : CompanyService {
-    override fun findByDocument(document: String): Company? = companyRepository.findByDocument(document)
+    override fun findByDocument(document: String) = companyRepository.findByDocument(document)
 
-    override fun persist(company: Company): Company = companyRepository.save(company)
+    override fun persist(company: Company) = companyRepository.save(company)
 }
