@@ -1,4 +1,4 @@
-package com.alanpereira.smartpoint.services
+package com.alangpereira.smartpoint.services
 
 import com.alangpereira.smartpoint.documents.Company
 import com.alangpereira.smartpoint.repositories.CompanyRepository
