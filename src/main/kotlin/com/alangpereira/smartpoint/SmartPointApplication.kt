@@ -1,4 +1,4 @@
-package com.alanpereira.smartpoint
+package com.alangpereira.smartpoint
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

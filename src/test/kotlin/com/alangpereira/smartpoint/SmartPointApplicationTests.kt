@@ -1,4 +1,4 @@
-package com.alanpereira.smartpoint
+package com.alangpereira.smartpoint
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

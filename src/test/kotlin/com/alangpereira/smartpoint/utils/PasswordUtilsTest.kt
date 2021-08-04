@@ -1,4 +1,4 @@
-package com.alanpereira.smartpoint.utils
+package com.alangpereira.smartpoint.utils
 
 import com.alangpereira.smartpoint.utils.PasswordUtils
 import org.junit.jupiter.api.Test
