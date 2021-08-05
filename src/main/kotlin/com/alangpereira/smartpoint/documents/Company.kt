@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document
 
 @Document
 data class Company (
-  val companyName: String,
-  val companyDocument: String,
+  val name: String,
+  val document: String,
   @Id val id: String? = null
 )
