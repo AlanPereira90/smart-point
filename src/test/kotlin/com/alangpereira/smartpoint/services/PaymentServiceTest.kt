@@ -42,14 +42,14 @@ class PaymentServiceTest {
 
     @Test
     fun testPaymentByEmployeeId() {
-        val employee: Page<Payment>? = paymentService?.findByEmployeeId(employeeId, PageRequest.of(0, 10))
-        Assertions.assertNotNull(employee)
+        val payment: Page<Payment>? = paymentService?.findByEmployeeId(employeeId, PageRequest.of(0, 10))
+        Assertions.assertNotNull(payment)
     }
 
     @Test
     fun testPersist() {
-        val employee = paymentService?.persist(payment())
-        Assertions.assertNotNull(employee)
+        val payment: Payment? = paymentService?.persist(payment())
+        Assertions.assertNotNull(payment)
     }
 
 

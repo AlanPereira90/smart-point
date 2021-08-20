@@ -12,7 +12,7 @@ class PaymentServiceImpl(val paymentRepository: PaymentRepository) : PaymentServ
     override fun findByEmployeeId(employeeId: String, pageRequest: PageRequest) =
         paymentRepository.findByEmployeeId(employeeId, pageRequest)
 
-    override fun persist(payment: Payment) = paymentRepository.save(payment)
+    override fun persist(payment: Payment): Payment = paymentRepository.save(payment)
 
     override fun remove(id: String) = paymentRepository.deleteById(id)
 }
